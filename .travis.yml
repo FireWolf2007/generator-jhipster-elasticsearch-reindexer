@@ -9,7 +9,8 @@ env:
     - JHIPSTER_VERSION=2.27.0 YEOMAN_VERSION=0.22.2
     - JHIPSTER_VERSION=3.0.0 YEOMAN_VERSION=0.22.5
     - JHIPSTER_VERSION=4.0.0 YEOMAN_VERSION=1.1.1
-    - JHIPSTER_VERSION=latest YEOMAN_VERSION=latest
+    - JHIPSTER_VERSION=latest YEOMAN_VERSION=1.8.5
+
 install:
   - npm install
   - npm install generator-jhipster@$JHIPSTER_VERSION yeoman-generator@$YEOMAN_VERSION
